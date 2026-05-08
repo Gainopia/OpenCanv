@@ -5,6 +5,7 @@ import AppSideToolArea from './components/app-side-panel/AppSideToolArea.vue';
 </script>
 
 <template>
+<h1>TEST: IS THIS WORKING?</h1>
   <div class="flex flex-row h-full">
     <AppSideToolArea />
     <section class="flex flex-col flex-1 h-full">
