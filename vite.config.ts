@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from '@vue/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/OpenCanv/', 
+  base: '/OpenCanv/', // تأكدي من إضافة هذا السطر بدقة
   plugins: [vue()],
-  build: {
-    outDir: './docs',
-  }
+  // ... قد تكون هناك إعدادات أخرى بالأسفل، اتركيها كما هي
 })
+
