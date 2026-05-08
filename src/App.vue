@@ -9,7 +9,7 @@ import AppSideToolArea from './components/app-side-panel/AppSideToolArea.vue';
     <AppSideToolArea />
     <section class="flex flex-col flex-1 h-full">
       <AppHeaderToolBar />
-      <div class="bg-gray-400 flex flex-1 justify-center items-center">
+      <div class="bg-gray-400 إلى bg-red-500 flex flex-1 justify-center items-center">
         <CanvCanvas />
       </div>
     </section>
